@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,Chrome 126.0.0.0,,,11-07-2024 20:11:04,11-07-2024 20:13:43,2m - 38.525s,FAILED
+,,,,,,,
+Test Cases/Test1,Chrome 126.0.0.0,,,11-07-2024 20:11:04,11-07-2024 20:11:19,14.550s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,11-07-2024 20:11:04,11-07-2024 20:11:06,1.297s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,11-07-2024 20:11:06,11-07-2024 20:11:08,2.355s,PASSED
+"click(findTestObject(""Object Repository/Test1/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:08,11-07-2024 20:11:10,1.920s,PASSED
+"click(findTestObject(""Object Repository/Test1/Page_CURA Healthcare Service/div_Login                Please login to ma_c5c214""))",Chrome 126.0.0.0,,,11-07-2024 20:11:10,11-07-2024 20:11:12,1.718s,PASSED
+"doubleClick(findTestObject(""Object Repository/Test1/Page_CURA Healthcare Service/p_Please login to make appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:12,11-07-2024 20:11:15,3.116s,PASSED
+"click(findTestObject(""Object Repository/Test1/Page_CURA Healthcare Service/p_Please login to make appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:15,11-07-2024 20:11:17,1.904s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Test1/Page_CURA Healthcare Service/p_Please login to make appointment""), ""Please login to make appointment."")",Chrome 126.0.0.0,,,11-07-2024 20:11:17,11-07-2024 20:11:19,2.025s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,11-07-2024 20:11:19,11-07-2024 20:11:19,0.123s,PASSED
+,,,,,,,
+Test Cases/Test,Chrome 126.0.0.0,,,11-07-2024 20:11:19,11-07-2024 20:11:26,6.819s,PASSED
+"openBrowser("""")",Chrome 126.0.0.0,,,11-07-2024 20:11:19,11-07-2024 20:11:19,0.613s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,11-07-2024 20:11:19,11-07-2024 20:11:22,2.313s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:22,11-07-2024 20:11:22,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 126.0.0.0,,,11-07-2024 20:11:22,11-07-2024 20:11:23,0.741s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 126.0.0.0,,,11-07-2024 20:11:23,11-07-2024 20:11:23,0.265s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/button_Login""))",Chrome 126.0.0.0,,,11-07-2024 20:11:23,11-07-2024 20:11:24,0.712s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:24,11-07-2024 20:11:25,0.452s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:25,11-07-2024 20:11:25,0.239s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:25,11-07-2024 20:11:25,0.238s,PASSED
+"click(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""))",Chrome 126.0.0.0,,,11-07-2024 20:11:25,11-07-2024 20:11:25,0.235s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 126.0.0.0,,,11-07-2024 20:11:25,11-07-2024 20:11:25,0.233s,PASSED
+closeBrowser(),Chrome 126.0.0.0,,,11-07-2024 20:11:25,11-07-2024 20:11:26,0.124s,PASSED
+,,,,,,,
+Test Cases/Test2,Chrome 126.0.0.0,,,11-07-2024 20:13:08,11-07-2024 20:13:43,34.684s,FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,11-07-2024 20:13:08,11-07-2024 20:13:09,0.793s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 126.0.0.0,,,11-07-2024 20:13:09,11-07-2024 20:13:12,3.042s,PASSED
+"switchToWindowTitle(""CURA Healthcare Service000"")",Chrome 126.0.0.0,,,11-07-2024 20:13:12,11-07-2024 20:13:43,30.823s,FAILED
